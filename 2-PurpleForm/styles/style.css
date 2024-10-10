@@ -23,3 +23,7 @@ h1 {
 main {
     background-color: #1E1F29;
 }
+
+input[type="email"] {
+    background: red;
+}
