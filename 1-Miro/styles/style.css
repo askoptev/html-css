@@ -3,9 +3,20 @@
     color: #FFFFFF;
 }
 
+#heroButton:hover {
+    background-color: #0d228c;
+}
+
+#heroButton:active {    
+    background-color: #121835;}
+
 .link {
     color: #4262FF;
     text-decoration: underline;
+}
+
+.link:hover {
+    color: #0823ae;
 }
 
 h1, h2 {
@@ -45,4 +56,50 @@ header a {
         font-size: 14px;
         line-height: 20px;
         color: #050038;
+}
+
+.heroForm input:focus {
+    background-color: red;
+}
+
+/* ul li:first-child {
+    color: green;
+} */
+
+nav ul li:nth-child(2n) {
+    color: green;
+}
+
+p:not(.sectionText) {
+    color: red;
+}
+
+/* a::after {
+    content: " ! ";
+}
+
+a::before {
+    content: " ! ";
+}
+
+a::selection {
+    background-color: red;
+} */
+
+nav ul {
+    list-style-type:none;
+}
+
+.sectionList {
+    list-style-type: none;
+    /* list-style-image: url('../images/Frame.svg'); */ 
+    /* list-style: url('../images/Frame.svg'); */
+}
+
+.sectionList li::marker {
+    content: url('../images/Frame.svg');
+}
+
+.sectionList li::before {
+    content: url('../images/Frame.svg');
 }
