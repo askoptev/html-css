@@ -1,78 +1,164 @@
-#heroButton {
-    background-color: #4262ff;
-    color: #FFFFFF;
+body {
+  margin: 0px;
 }
 
-#heroButton:hover {
-    background-color: #0d228c;
+h1 {
+  margin: 0 0 17px 0;
 }
 
-#heroButton:active {    
-    background-color: #121835;}
-
-.link {
-    color: #4262FF;
-    text-decoration: underline;
+h2 {
+    margin: 0 0 20px 0;
 }
 
-.link:hover {
-    color: #0823ae;
-}
-
-h1, h2 {
-    color: #050038;
-    font-family: 'Roboto' sans-serif;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 56px;
+h1,
+h2 {
+  color: #050038;
+  font-family: "Roboto" sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
 }
 
 p {
-    color: #050038;
-    font-family: 'Roboto' sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-}
-
-.heroText {
-    color: #050038;
-}
-
-.sectionText {
-    color: #696688;
+  color: #050038;
+  font-family: "Roboto" sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 header a {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #050038;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #050038;
+  text-decoration: none;
+}
+
+nav ul li:nth-child(2n) {
+  color: green;
+}
+
+/* p:not(.sectionText) {
+  color: red;
+} */
+
+nav {
+  padding: 33px 50px;
+  border-bottom: 1px solid #f0f0f0;
+  margin-bottom: 60px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+    background: #050038;
+    padding: 47px 40px;
+}
+
+footer a {
+    color: white;
     text-decoration: none;
 }
 
+.link {
+  color: #4262ff;
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: #0823ae;
+}
+
+.heroText {
+  color: #050038;
+  margin: 0 0 55px 0;
+}
+
+.sectionText {
+  color: #696688;
+  margin: 0 0 40px 0;
+}
 .heroForm + p {
-    font-weight: 400;
-        font-size: 14px;
-        line-height: 20px;
-        color: #050038;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #050038;
+  margin: 8px 0 52px 0;
+}
+
+.heroForm input {
+  border-radius: 32px;
+  border: 1px solid #9B99AF;
+  height: 38px;
+  padding: 5px 10px;
+}
+
+.heroForm button {
+  border: 1px solid #4262FF;
+  border-radius: 32px;
+  padding: 10px 20px;
 }
 
 .heroForm input:focus {
-    background-color: red;
+  background-color: red;
 }
+.sectionList {
+  list-style-type: none;
+  /* list-style-image: url('../images/Frame.svg'); */
+  /* list-style: url('../images/Frame.svg'); */
+}
+
+.sectionList li::marker {
+  content: url("../images/Frame.svg");
+}
+
+.sectionList li::before {
+  content: url("../images/Frame.svg");
+}
+
+.experiment {
+  background: rgb(22, 22, 101);
+  width: 400px;
+  height: 300px;
+  color: white;
+  padding: 20px;
+}
+
+.border1 {
+  border-width: 5px;
+  border-style: solid;
+  border-color: black;
+  /* короткая запись */
+  border: 2px solid gray;
+  /* внутри или снаружи блока рисовать границы */
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+#heroButton {
+  background-color: #4262ff;
+  color: #ffffff;
+  height: 48px;
+
+}
+
+#heroButton:hover {
+  background-color: #0d228c;
+}
+
+#heroButton:active {
+  background-color: #121835;
+}
+
 
 /* ul li:first-child {
     color: green;
 } */
-
-nav ul li:nth-child(2n) {
-    color: green;
-}
-
-p:not(.sectionText) {
-    color: red;
-}
 
 /* a::after {
     content: " ! ";
@@ -85,21 +171,3 @@ a::before {
 a::selection {
     background-color: red;
 } */
-
-nav ul {
-    list-style-type:none;
-}
-
-.sectionList {
-    list-style-type: none;
-    /* list-style-image: url('../images/Frame.svg'); */ 
-    /* list-style: url('../images/Frame.svg'); */
-}
-
-.sectionList li::marker {
-    content: url('../images/Frame.svg');
-}
-
-.sectionList li::before {
-    content: url('../images/Frame.svg');
-}
