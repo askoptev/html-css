@@ -1,3 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    background-color: #1E1F29;
+    width: 695px;
+    height: 598px;
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 48px;
+
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+    color: #FAFAFA;
+    margin: 0 0 32px 0;
+    text-align: center;
+}
+
 label {
     color: #AFB2BF;
 }
@@ -5,33 +28,52 @@ label {
 input, select, textarea {
     background-color: #2E2D3D;
     color: #FAFAFA;    
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Fira Sans', sans-serif;
+    line-height: 19px;    
+    border-radius: 10px;
+    border-style: none;
+    padding-left: 48px;
+    padding-top: 27px;
+    margin: 0 0 16px 0;
+    height: 58px;
 }
 
-input:invalid {
-    background-color: red;
-}
-
-input:valid {
-    background-color: green;
+textarea {
+    height: 135px;
 }
 
 button {
     background-color: #6C38CC;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+    font-family: 'Fira Sans', sans-serif;
     color: #FAFAFA;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 24px;
+    width: 100%;
 }
 
-h1 {
-    font-size: 36px;
-    font-weight: bold;
-    font-family: 'Fira Sans', monospace;
-    color: #FAFAFA;
-
+.inputField {
+    position: relative;
 }
 
-main {
-    background-color: #1E1F29;
+.labelField {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Fira Sans', sans-serif;
+    line-height: 15px;
+    position: absolute;
+    top: 12px;
+    left: 48px;
 }
 
-input[type="email"] {
-    /* background: red; */
+.icoInput {
+    position: absolute;
+    top: 17px;
+    left: 17px;
 }
