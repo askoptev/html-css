@@ -142,13 +142,15 @@ footer a {
 
 #heroButton {
   background-color: #4262ff;
+  transition: background-color 1s, border-radius 2s;
   color: #ffffff;
   height: 48px;
-
+  
 }
 
 #heroButton:hover {
   background-color: #0d228c;
+  border-radius: 50%;
 }
 
 #heroButton:active {
@@ -171,3 +173,11 @@ a::before {
 a::selection {
     background-color: red;
 } */
+
+.exp div {
+  width: max(50%, 200px);
+  height: 200px;
+  background-color:#4262FF;
+  margin: 10px;
+  /* transition: margin-left 2s; */
+}
