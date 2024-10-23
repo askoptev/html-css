@@ -1,0 +1,16 @@
+:root {
+  --color-primary: hsl(231, 14%, 10%);
+  --color-text: #fafafa;
+  --color-bg: #16171D;
+  --color-bg-medium: #1E1F29;
+  --color-bg-light: #2E2D3D;
+}
+
+body {
+  background-color: var(--color-bg);
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}

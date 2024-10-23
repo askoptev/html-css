@@ -1,0 +1,36 @@
+.header {
+  background: var(--color-bg-medium);
+}
+
+.header__wrapper {    
+  max-width: 1220px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 56px;
+}
+
+.menu__item a{
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 128%;
+  color: var(--color-text);
+}
+
+
+.menu__item:hover a{
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 128%;
+  color: var(--color-text);
+}
