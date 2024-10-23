@@ -10,10 +10,29 @@
   align-items: center;
 }
 
+.header__login {
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 18px;
+  line-height: 120%;
+  color: var(--color-text);
+}
+
+.header__login:hover {
+  color: var(--color-hover-text);
+}
+
 .menu {
   list-style: none;
   display: flex;
-  gap: 56px;
+  gap: 40px;
+}
+
+.menu__item {
+  cursor: pointer;
+  padding: 8px 16px;
 }
 
 .menu__item a{
@@ -32,5 +51,10 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 128%;
-  color: var(--color-text);
+  color: var(--color-hover-text);
+}
+
+.menu__item_active {
+  border: 1px solid var(--color-stroke);
+  border-radius: var(--border-8);
 }
