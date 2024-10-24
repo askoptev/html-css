@@ -53,4 +53,8 @@
         font-size: 30px;
         line-height: 120%;
     }
+
+    .hero_right {
+        width: 100%;
+    }
 }
