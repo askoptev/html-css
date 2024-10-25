@@ -35,3 +35,22 @@
     }
 }
 
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.social-icons__icon {
+    border: 1px solid var(--color-stroke);
+    border-radius: var(--border-8);
+    text-decoration: none;
+    padding: 11px;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.social-icons__icon:hover {
+    background-color: var(--color-bg-medium);
+}
