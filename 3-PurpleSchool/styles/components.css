@@ -6,6 +6,7 @@
     max-width: var(--layout-width);
     margin: 0 auto;
     display: flex;
+    flex-direction: column;
     padding: 100px 24px;
 }
 
@@ -68,9 +69,9 @@
 
 /* headling */
 
-.headling {
+/* .headling {
     margin-bottom: 32px;
-}
+} */
 
 .headling__top {
     font-weight: 400;
@@ -86,4 +87,23 @@
     line-height: 120%;
     color: var(--color-text);
     margin: 0 0 32px 0;
+}
+
+/* Paragraph */
+.paragraph {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--color-text);
+    max-width: 787px;
+}
+
+.paragraph_32 {
+    margin-bottom: 32px;
+}
+
+/* Card */
+.card {
+    background-color: var(--color-bg-medium);
+    border-radius: var(--border-10);
 }
