@@ -19,6 +19,7 @@
     border: none;
     border-radius: var(--border-10);
     cursor: pointer;
+    display: block;
 }
 
 .button_primary {
@@ -34,7 +35,7 @@
 }
 
 .button_ghost:hover {
-    background-color: var(--color-bg-medium);
+    background-color: var(--color-bg-light);
 }
 
 @media (max-width: 640px) {
@@ -106,4 +107,65 @@
 .card {
     background-color: var(--color-bg-medium);
     border-radius: var(--border-10);
+}
+
+.card_32 {
+    padding: 32px;
+}
+
+/* Post-wrapper */
+.post-wrapper {
+    margin-top: 48px 0 48px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+
+}
+
+/* post */
+.post {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.post__button a {
+    display: block;
+    gap: 32px;
+}
+
+.post__stats {
+    display: flex;
+    gap: 32px;
+}
+
+.post__stat {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--color-hover-text);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+}
+
+.post__content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.post__header {
+font-weight: 700;
+font-size: 24px;
+line-height: 120%;
+color: var(--color-text);
+margin: 0;
+}
+
+.post__description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--color-text);
 }

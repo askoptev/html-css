@@ -70,3 +70,8 @@
 }
 
 /* section blog */
+
+.button-more {
+    display: flex;
+    text-align: center;
+}
