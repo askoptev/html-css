@@ -41,9 +41,14 @@
 .chip_wrapper {
 	display: flex;
 	gap: 24px;
-	margin-bottom: 32px;
 	overflow: scroll;
-	margin-right: -24px;
+	margin: 0 -24px 32px -24px;
+	padding-left: 24px;
+	scrollbar-width: 0;
+}
+
+.chip_wrapper::-webkit-scrollbar {
+	display: none;
 }
 
 .courses_wrapper {
